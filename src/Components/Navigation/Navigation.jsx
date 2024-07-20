@@ -10,11 +10,17 @@ import { Link } from "react-router-dom";
 export const Navigation = () => {
   const [value, setValue] = React.useState("recents");
 
+  React.useEffect(() => {
+    const savedHoverState = JSON.parse(localStorage.getItem("hoverState"));
+    if (savedHoverState) {
+      setValue(savedHoverState);
+    }
+  }, []);
+
   const handleChange = (event, newValue) => {
     setValue(newValue);
     localStorage.setItem("hoverState", JSON.stringify(newValue));
   };
-
   return (
     <nav className="navigation">
       <div className="container">
