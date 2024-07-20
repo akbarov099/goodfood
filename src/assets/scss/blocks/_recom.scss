@@ -29,11 +29,10 @@
 .recom_item {
 
     button {
-        background: #fff;
+        background: $white;
         border-radius: 40px 5px;
         box-shadow: 2px 4px 4px 0px #00000040,
             -0.5px -0.5px 4px 0px #00000012;
-        text-align: start;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -76,7 +75,7 @@
     }
 
     .item_price {
-        color: #000;
+        color: $dark_black;
         font-family: $montserrat;
         font-size: 13px;
         font-weight: 500;

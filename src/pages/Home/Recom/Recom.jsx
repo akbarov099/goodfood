@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, CardActionArea } from '@mui/material';
+import { CardActionArea } from '@mui/material';
 import { BsCartPlus, BsCartDash } from "react-icons/bs";
 
 
@@ -36,7 +36,7 @@ export default function Recom() {
                             <img className='item_img' src="https://myastoriya.com.ua/upload/medialibrary/6f4/qo0by2qp5ceiic0upzyy36y07ikrglja.jpg" alt="" />
 
                             <div className="item_content">
-                                <h3 className='item_title'>Hamburger</h3>
+                                <h3 className='item_title'>Shawarma</h3>
                                 <p className="item_suptitle">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, molestias.
                                 </p>
@@ -57,7 +57,7 @@ export default function Recom() {
                             <img className='item_img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyeMnN6hvRhQz0B_n6wQARXBpUf9lIlE3Vjg&s" alt="" />
 
                             <div className="item_content">
-                                <h3 className='item_title'>Hamburger</h3>
+                                <h3 className='item_title'>Pizza</h3>
                                 <p className="item_suptitle">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, molestias.
                                 </p>
@@ -78,7 +78,7 @@ export default function Recom() {
                             <img className='item_img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTOwwr1Ec5gcDAheZkEp90Au8wQoSQCw98Zg&s" alt="" />
 
                             <div className="item_content">
-                                <h3 className='item_title'>Hamburger</h3>
+                                <h3 className='item_title'>Nuggets</h3>
                                 <p className="item_suptitle">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, molestias.
                                 </p>

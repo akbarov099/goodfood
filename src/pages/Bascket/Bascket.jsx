@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Cart from './Cart/Cart';
 
 export const Bascket = () => {
   return (
-    <div>Bascket</div>
+    <>
+      <Cart />
+    </>
   )
 }
