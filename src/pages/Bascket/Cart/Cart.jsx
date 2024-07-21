@@ -9,7 +9,6 @@ export default function Cart() {
     return (
         <section className='cart'>
             <div className="container">
-                <h1 className='cart_title'>Basket</h1>
                 <ul className="cart_wrapper">
 
                     <li className='cart_item'>

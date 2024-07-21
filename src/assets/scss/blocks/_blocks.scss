@@ -1,6 +1,6 @@
 @import "./navigation"; 
 @import "./header";
-@import "./recom";
-@import "./swiper";
-@import "./cart";
-@import "./home-categoria";
+@import "./_home/home";
+@import "./_categories/categories";
+@import "./_basket/basket";
+@import "./_account/account";

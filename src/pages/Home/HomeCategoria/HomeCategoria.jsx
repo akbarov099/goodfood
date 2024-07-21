@@ -1,11 +1,15 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
-
 export const HomeCategoria = () => {
   return (
     <section className="categoria">
       <div className="container">
-        <h2>Сategory</h2>
+        <div className="categoria__titles">
+          <h2>Сategory</h2>
+          <p className="categoria__view">
+            View All <FaArrowRight />
+          </p>
+        </div>
         <div className="categoria__wrapper">
           <div className="categoria__item">
             <img
@@ -53,10 +57,6 @@ export const HomeCategoria = () => {
               alt=""
             />
             <h3>Snacks</h3>
-          </div>
-          <div className="categoria__item">
-            <img src="https://avatars.mds.yandex.net/i?id=7a6e25b1356214f1e980103fb2eb48814399053f5b9b306d-10450775-images-thumbs&n=13" alt="" />
-            <h3>View All</h3>
           </div>
         </div>
       </div>
