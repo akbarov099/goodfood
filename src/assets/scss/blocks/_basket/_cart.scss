@@ -1,35 +1,7 @@
-.cart__naviget {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  box-shadow: 4px 3px 6px 0px #0000006a;
-
-  .cart_icon {
-    font-size: 25px;
-    color: $black;
-    transition: 0.5s linear;
-
-    &:hover {
-      color: $light__green;
-    }
-  }
-  .cart_title {
-    font-family: $inconsolata;
-    font-weight: 600;
-    font-size: 26px;
-    color: $black;
-    letter-spacing: 1px;
-    transition: 0.5s linear;
-
-    &:hover {
-      color: $light__green;
-    }
-  }
-}
 
 .cart {
   margin-top: 20px;
+  margin-bottom: 130px;
 
   .cart_wrapper {
     display: flex;

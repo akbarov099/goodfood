@@ -35,8 +35,8 @@ export const Navigation = () => {
           <BottomNavigationAction
             component={Link}
             to="/categories"
-            label="Categories"
-            value="categories"
+            label="Category"
+            value="Category"
             icon={<BiSolidCategory />}
           />
           <BottomNavigationAction
